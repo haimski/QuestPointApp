@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    @apply bg-deep-dark text-zinc-100 font-sans antialiased;
+  }
+
+  a {
+    @apply text-zinc-100/90 hover:text-white transition-colors;
+  }
+
+  ::selection {
+    background: rgba(230, 57, 70, 0.35);
+  }
+}
+
+@layer components {
+  .qp-container {
+    @apply mx-auto w-full max-w-6xl px-4;
+  }
+
+  .qp-glass {
+    @apply border border-white/10 bg-card-gray/60 backdrop-blur-xl;
+  }
+
+  .qp-btn {
+    @apply inline-flex items-center justify-center rounded-xl px-4 py-2 text-sm font-medium transition-all;
+  }
+
+  .qp-btn-primary {
+    @apply qp-btn bg-primary-red text-white shadow-red-glow hover:shadow-red-glow-lg hover:-translate-y-[1px] active:translate-y-0;
+  }
+
+  .qp-btn-ghost {
+    @apply qp-btn border border-white/10 bg-white/5 text-white/90 hover:bg-white/10 hover:text-white;
+  }
+
+  .qp-input {
+    @apply w-full rounded-xl border border-white/10 bg-white/5 px-4 py-2 text-sm text-white placeholder:text-white/40 outline-none transition focus:border-primary-red/60 focus:ring-2 focus:ring-primary-red/20;
+  }
+}
+

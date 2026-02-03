@@ -1,119 +1,149 @@
 import * as React from "react"
 import { Link } from "gatsby"
+
 import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/layout"
+import Layout from "../components/Layout"
+import ProductCard from "../components/ProductCard"
 import Seo from "../components/seo"
-import * as styles from "../components/index.module.css"
-
-const links = [
-  {
-    text: "Tutorial",
-    url: "https://www.gatsbyjs.com/docs/tutorial",
-    description:
-      "A great place to get started if you're new to web development. Designed to guide you through setting up your first Gatsby site.",
-  },
-  {
-    text: "Examples",
-    url: "https://github.com/gatsbyjs/gatsby/tree/master/examples",
-    description:
-      "A collection of websites ranging from very basic to complex/complete that illustrate how to accomplish specific tasks within your Gatsby sites.",
-  },
-  {
-    text: "Plugin Library",
-    url: "https://www.gatsbyjs.com/plugins",
-    description:
-      "Learn how to add functionality and customize your Gatsby site or app with thousands of plugins built by our amazing developer community.",
-  },
-  {
-    text: "Build and Host",
-    url: "https://www.gatsbyjs.com/cloud",
-    description:
-      "Now you’re ready to show the world! Give your Gatsby site superpowers: Build and host on Netlify. Get started for free!",
-  },
-]
-
-const samplePageLinks = [
-  {
-    text: "Page 2",
-    url: "page-2",
-    badge: false,
-    description:
-      "A simple example of linking to another page within a Gatsby site",
-  },
-  { text: "TypeScript", url: "using-typescript" },
-  { text: "Server Side Rendering", url: "using-ssr" },
-  { text: "Deferred Static Generation", url: "using-dsg" },
-]
-
-const moreLinks = [
-  {
-    text: "Documentation",
-    url: "https://gatsbyjs.com/docs/",
-  },
-  {
-    text: "Starters",
-    url: "https://gatsbyjs.com/starters/",
-  },
-  {
-    text: "Showcase",
-    url: "https://gatsbyjs.com/showcase/",
-  },
-  {
-    text: "Contributing",
-    url: "https://www.gatsbyjs.com/contributing/",
-  },
-  { text: "Issues", url: "https://github.com/gatsbyjs/gatsby/issues" },
-]
-
-const utmParameters = `?utm_source=starter&utm_medium=start-page&utm_campaign=default-starter`
 
 const IndexPage = () => (
   <Layout>
-    <div className={styles.textCenter}>
-      <StaticImage
-        src="../images/example.png"
-        loading="eager"
-        width={64}
-        quality={95}
-        formats={["auto", "webp", "avif"]}
-        alt=""
-        style={{ marginBottom: `var(--space-3)` }}
-      />
-      <h1>
-        Welcome to <b>Gatsby!</b>
-      </h1>
-      <p className={styles.intro}>
-        <b>Example pages:</b>{" "}
-        {samplePageLinks.map((link, i) => (
-          <React.Fragment key={link.url}>
-            <Link to={link.url}>{link.text}</Link>
-            {i !== samplePageLinks.length - 1 && <> · </>}
-          </React.Fragment>
-        ))}
-        <br />
-        Edit <code>src/pages/index.js</code> to update this page.
-      </p>
-    </div>
-    <ul className={styles.list}>
-      {links.map(link => (
-        <li key={link.url} className={styles.listItem}>
-          <a
-            className={styles.listItemLink}
-            href={`${link.url}${utmParameters}`}
-          >
-            {link.text} ↗
-          </a>
-          <p className={styles.listItemDescription}>{link.description}</p>
-        </li>
-      ))}
-    </ul>
-    {moreLinks.map((link, i) => (
-      <React.Fragment key={link.url}>
-        <a href={`${link.url}${utmParameters}`}>{link.text}</a>
-        {i !== moreLinks.length - 1 && <> · </>}
-      </React.Fragment>
-    ))}
+    <section className="relative overflow-hidden rounded-3xl border border-white/10 bg-card-gray/50 p-6 shadow-red-glow sm:p-10">
+      <div className="pointer-events-none absolute inset-0 bg-hero-radial opacity-80" />
+      <div className="relative grid items-center gap-10 lg:grid-cols-2">
+        <div>
+          <div className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs text-white/70">
+            <span className="h-1.5 w-1.5 rounded-full bg-primary-red shadow-red-glow" />
+            Curated consoles • fast checkout • premium condition
+          </div>
+
+          <h1 className="mt-5 font-display text-3xl leading-tight tracking-tight text-white sm:text-5xl">
+            The premium console shop for{" "}
+            <span className="text-primary-red">modern power</span> and{" "}
+            <span className="text-white">retro soul</span>.
+          </h1>
+
+          <p className="mt-4 max-w-xl text-base text-white/70 sm:text-lg">
+            QuestPoint is built for collectors and players: clean listings,
+            lightning discovery, and a sleek checkout flow.
+          </p>
+
+          <div className="mt-7 flex flex-col gap-3 sm:flex-row sm:items-center">
+            <Link to="/store" className="qp-btn-primary">
+              Shop consoles
+            </Link>
+            <Link to="/gaming-vault" className="qp-btn-ghost">
+              Explore the Gaming Vault
+            </Link>
+          </div>
+
+          <div className="mt-6 flex flex-wrap items-center gap-2 text-xs text-white/50">
+            <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1">
+              Modern Systems
+            </span>
+            <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1">
+              Retro Classics
+            </span>
+            <span className="rounded-full border border-white/10 bg-white/5 px-3 py-1">
+              Handhelds
+            </span>
+          </div>
+        </div>
+
+        <div className="relative">
+          <div className="absolute -inset-4 -z-10 rounded-3xl bg-primary-red/10 blur-3xl" />
+          <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/5">
+            <StaticImage
+              src="../images/example.png"
+              alt="QuestPoint featured console"
+              loading="eager"
+              quality={95}
+              formats={["auto", "webp", "avif"]}
+              className="h-full w-full"
+            />
+          </div>
+          <div className="mt-4 text-xs text-white/50">
+            Featured drop: immaculate condition, verified authenticity.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section className="mt-12">
+      <div className="flex items-end justify-between gap-4">
+        <div>
+          <h2 className="font-display text-xl tracking-tight text-white sm:text-2xl">
+            Featured consoles
+          </h2>
+          <p className="mt-1 text-sm text-white/60">
+            A tiny sample set — we’ll wire this to the full catalog next.
+          </p>
+        </div>
+        <Link to="/store" className="text-sm text-white/70 hover:text-white">
+          View all →
+        </Link>
+      </div>
+
+      <div className="mt-6 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+        <ProductCard
+          id="ps5-disc"
+          name="PlayStation 5 (Disc Edition)"
+          brand="Sony"
+          category="Modern"
+          price={499.99}
+          description="PlayStation 5 console (disc edition)."
+          href="/store/ps5-disc"
+          imageNode={
+            <StaticImage
+              src="../images/example.png"
+              alt="PlayStation 5"
+              className="h-full w-full"
+              placeholder="blurred"
+              formats={["auto", "webp", "avif"]}
+            />
+          }
+        />
+
+        <ProductCard
+          id="nintendo-64"
+          name="Nintendo 64"
+          brand="Nintendo"
+          category="Retro"
+          price={169.0}
+          description="Nintendo 64 retro home console."
+          href="/store/nintendo-64"
+          imageNode={
+            <StaticImage
+              src="../images/example.png"
+              alt="Nintendo 64"
+              className="h-full w-full"
+              placeholder="blurred"
+              formats={["auto", "webp", "avif"]}
+            />
+          }
+        />
+
+        <ProductCard
+          id="gameboy-color"
+          name="GameBoy Color"
+          brand="Nintendo"
+          category="Retro"
+          price={129.0}
+          description="GameBoy Color handheld console."
+          href="/store/gameboy-color"
+          imageNode={
+            <StaticImage
+              src="../images/example.png"
+              alt="GameBoy Color"
+              className="h-full w-full"
+              placeholder="blurred"
+              formats={["auto", "webp", "avif"]}
+            />
+          }
+        />
+      </div>
+    </section>
   </Layout>
 )
 

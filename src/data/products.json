@@ -1,0 +1,307 @@
+[
+  {
+    "id": "ps5-disc",
+    "name": "PlayStation 5 (Disc Edition)",
+    "price": 499.99,
+    "category": "Modern",
+    "type": "Home",
+    "brand": "Sony"
+  },
+  {
+    "id": "ps5-pro",
+    "name": "PlayStation 5 Pro",
+    "price": 699.0,
+    "category": "Modern",
+    "type": "Home",
+    "brand": "Sony"
+  },
+  {
+    "id": "xbox-series-x",
+    "name": "Xbox Series X",
+    "price": 499.99,
+    "category": "Modern",
+    "type": "Home",
+    "brand": "Microsoft"
+  },
+  {
+    "id": "xbox-series-s",
+    "name": "Xbox Series S",
+    "price": 299.99,
+    "category": "Modern",
+    "type": "Home",
+    "brand": "Microsoft"
+  },
+  {
+    "id": "nintendo-switch-oled",
+    "name": "Nintendo Switch (OLED)",
+    "price": 349.99,
+    "category": "Modern",
+    "type": "Hybrid",
+    "brand": "Nintendo"
+  },
+  {
+    "id": "nintendo-switch",
+    "name": "Nintendo Switch (Standard)",
+    "price": 299.99,
+    "category": "Modern",
+    "type": "Hybrid",
+    "brand": "Nintendo"
+  },
+  {
+    "id": "nintendo-switch-lite",
+    "name": "Nintendo Switch Lite",
+    "price": 199.99,
+    "category": "Modern",
+    "type": "Handheld",
+    "brand": "Nintendo"
+  },
+  {
+    "id": "nintendo-switch-2",
+    "name": "Nintendo Switch 2",
+    "price": 399.99,
+    "category": "Modern",
+    "type": "Hybrid",
+    "brand": "Nintendo"
+  },
+  {
+    "id": "steam-deck",
+    "name": "Steam Deck",
+    "price": 399.0,
+    "category": "Modern",
+    "type": "Handheld",
+    "brand": "Valve"
+  },
+  {
+    "id": "playstation-portal",
+    "name": "PlayStation Portal",
+    "price": 199.99,
+    "category": "Modern",
+    "type": "Handheld",
+    "brand": "Sony"
+  },
+  {
+    "id": "meta-quest-3",
+    "name": "Meta Quest 3",
+    "price": 499.99,
+    "category": "Modern",
+    "type": "Handheld",
+    "brand": "Meta"
+  },
+  {
+    "id": "meta-quest-3s",
+    "name": "Meta Quest 3S",
+    "price": 299.99,
+    "category": "Modern",
+    "type": "Handheld",
+    "brand": "Meta"
+  },
+  {
+    "id": "psvr2",
+    "name": "PlayStation VR2 (PSVR2)",
+    "price": 549.99,
+    "category": "Modern",
+    "type": "Home",
+    "brand": "Sony"
+  },
+  {
+    "id": "ps4",
+    "name": "PlayStation 4 (PS4)",
+    "price": 249.0,
+    "category": "Modern",
+    "type": "Home",
+    "brand": "Sony"
+  },
+  {
+    "id": "ps4-pro",
+    "name": "PlayStation 4 Pro",
+    "price": 299.0,
+    "category": "Modern",
+    "type": "Home",
+    "brand": "Sony"
+  },
+  {
+    "id": "xbox-one-s",
+    "name": "Xbox One S",
+    "price": 199.0,
+    "category": "Modern",
+    "type": "Home",
+    "brand": "Microsoft"
+  },
+  {
+    "id": "xbox-one-x",
+    "name": "Xbox One X",
+    "price": 249.0,
+    "category": "Modern",
+    "type": "Home",
+    "brand": "Microsoft"
+  },
+  {
+    "id": "rog-ally",
+    "name": "ASUS ROG Ally",
+    "price": 599.0,
+    "category": "Modern",
+    "type": "Handheld",
+    "brand": "ASUS"
+  },
+  {
+    "id": "nes",
+    "name": "Nintendo Entertainment System (NES)",
+    "price": 149.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Nintendo"
+  },
+  {
+    "id": "magnavox-odyssey",
+    "name": "Magnavox Odyssey",
+    "price": 299.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Magnavox"
+  },
+  {
+    "id": "atari-2600",
+    "name": "Atari 2600",
+    "price": 129.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Atari"
+  },
+  {
+    "id": "mattel-intellivision",
+    "name": "Mattel Intellivision",
+    "price": 139.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Mattel"
+  },
+  {
+    "id": "colecovision",
+    "name": "ColecoVision",
+    "price": 159.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Coleco"
+  },
+  {
+    "id": "sega-master-system",
+    "name": "Sega Master System",
+    "price": 139.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Sega"
+  },
+  {
+    "id": "turbografx-16",
+    "name": "TurboGrafx-16",
+    "price": 219.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "NEC"
+  },
+  {
+    "id": "sega-genesis",
+    "name": "Sega Genesis / Mega Drive",
+    "price": 129.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Sega"
+  },
+  {
+    "id": "super-nintendo",
+    "name": "Super Nintendo (SNES)",
+    "price": 159.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Nintendo"
+  },
+  {
+    "id": "neo-geo-aes",
+    "name": "Neo Geo AES",
+    "price": 899.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "SNK"
+  },
+  {
+    "id": "3do",
+    "name": "3DO Interactive Multiplayer",
+    "price": 399.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "3DO"
+  },
+  {
+    "id": "atari-jaguar",
+    "name": "Atari Jaguar",
+    "price": 229.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Atari"
+  },
+  {
+    "id": "sega-saturn",
+    "name": "Sega Saturn",
+    "price": 249.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Sega"
+  },
+  {
+    "id": "ps1",
+    "name": "Sony PlayStation (PS1)",
+    "price": 119.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Sony"
+  },
+  {
+    "id": "nintendo-64",
+    "name": "Nintendo 64",
+    "price": 169.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Nintendo"
+  },
+  {
+    "id": "sega-dreamcast",
+    "name": "Sega Dreamcast",
+    "price": 199.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Sega"
+  },
+  {
+    "id": "playstation-2",
+    "name": "PlayStation 2 (PS2)",
+    "price": 149.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Sony"
+  },
+  {
+    "id": "nintendo-gamecube",
+    "name": "Nintendo GameCube",
+    "price": 149.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Nintendo"
+  },
+  {
+    "id": "original-xbox",
+    "name": "Original Xbox",
+    "price": 159.0,
+    "category": "Retro",
+    "type": "Home",
+    "brand": "Microsoft"
+  },
+  {
+    "id": "gameboy-color",
+    "name": "GameBoy Color",
+    "price": 129.0,
+    "category": "Retro",
+    "type": "Handheld",
+    "brand": "Nintendo"
+  }
+]
+

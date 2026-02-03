@@ -5,17 +5,29 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fontsource/inter": "^5.2.8",
+    "@fontsource/orbitron": "^5.2.8",
+    "@vercel/gatsby-plugin-vercel-builder": "^2.0.127",
     "gatsby": "^5.14.6",
     "gatsby-plugin-image": "^3.14.0",
     "gatsby-plugin-manifest": "^5.14.0",
+    "gatsby-plugin-postcss": "^6.16.0",
     "gatsby-plugin-sharp": "^5.14.0",
+    "gatsby-plugin-sitemap": "^6.16.0",
+    "gatsby-remark-images": "^7.16.0",
     "gatsby-source-filesystem": "^5.14.0",
+    "gatsby-transformer-remark": "^6.16.0",
     "gatsby-transformer-sharp": "^5.14.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "stripe": "^20.3.0"
   },
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "@tailwindcss/typography": "^0.5.19",
+    "autoprefixer": "^10.4.24",
+    "postcss": "^8.5.6",
+    "prettier": "^2.8.8",
+    "tailwindcss": "^3.4.19"
   },
   "keywords": [
     "gatsby"
