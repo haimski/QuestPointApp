@@ -3,7 +3,7 @@ import { Link } from "gatsby"
 
 import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import ProductCard from "../components/ProductCard"
 import Seo from "../components/seo"
 

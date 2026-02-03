@@ -2,7 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
-import Layout from "../components/Layout"
+import Layout from "../components/layout"
 import Seo from "../components/seo"
 import products from "../data/products.json"
 import { useCart } from "../context/CartContext"
