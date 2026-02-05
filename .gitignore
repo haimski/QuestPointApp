@@ -58,6 +58,9 @@ typings/
 .cache/
 public
 
+# Vercel
+.vercel/
+
 # Mac files
 .DS_Store
 

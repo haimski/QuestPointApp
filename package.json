@@ -34,6 +34,7 @@
   ],
   "license": "0BSD",
   "scripts": {
+    "prebuild": "node -e \"require('fs').rmSync('.vercel/output',{recursive:true,force:true})\"",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
