@@ -1,6 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
 
+import { StaticImage } from "gatsby-plugin-image"
+
 import Layout from "../components/layout"
 import ProductCard from "../components/ProductCard"
 import Seo from "../components/seo"
@@ -63,19 +65,14 @@ const IndexPage = () => {
           <div className="relative">
             <div className="absolute -inset-4 -z-10 rounded-3xl bg-primary-red/10 blur-3xl" />
             <div className="overflow-hidden rounded-3xl border border-white/10 bg-white/5">
-              {heroProduct?.imageUrl ? (
-                <img
-                  src={heroProduct.imageUrl}
-                  alt={heroProduct.name || "QuestPoint featured console"}
-                  className="h-full w-full object-contain p-10"
-                  loading="eager"
-                  decoding="async"
-                />
-              ) : (
-                <div className="flex aspect-[4/3] w-full items-center justify-center text-sm text-white/40">
-                  No hero image
-                </div>
-              )}
+              <StaticImage
+                src="../images/hero-main.png"
+                alt="QuestPoint hero consoles"
+                loading="eager"
+                quality={95}
+                formats={["auto", "webp", "avif"]}
+                className="h-full w-full"
+              />
             </div>
             <div className="mt-4 text-xs text-white/50">
               Featured drop: immaculate condition, verified authenticity.

@@ -1,6 +1,11 @@
+import dotenv from "dotenv"
 import Stripe from "stripe"
 import fs from "node:fs/promises"
 import path from "node:path"
+
+// Load .env.* locally so demo checkout works without exporting env vars manually.
+// On Vercel, env vars are injected by the platform (dotenv is effectively a no-op).
+dotenv.config({ path: `.env.${process.env.NODE_ENV || "development"}` })
 
 function toCents(price) {
   const n = typeof price === "number" ? price : Number(price || 0)
