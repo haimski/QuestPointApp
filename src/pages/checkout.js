@@ -49,7 +49,17 @@ export default function CheckoutPage() {
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ items: lines.map(l => ({ id: l.id, qty: l.qty })) }),
       })
-      const data = await res.json()
+      const raw = await res.text()
+      let data = null
+      try {
+        data = raw ? JSON.parse(raw) : null
+      } catch {
+        throw new Error(
+          raw?.slice(0, 140) ||
+            `Checkout failed (HTTP ${res.status})`
+        )
+      }
+
       if (!res.ok) throw new Error(data?.error || "Checkout failed")
       if (!data?.url) throw new Error("Missing Stripe checkout URL")
       window.location.assign(data.url)
