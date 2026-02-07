@@ -5,7 +5,8 @@
     "price": 499.99,
     "category": "Modern",
     "type": "Home",
-    "brand": "Sony"
+    "brand": "Sony",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/PlayStation_5_and_DualSense_with_transparent_background.png?width=900"
   },
   {
     "id": "ps5-pro",
@@ -13,7 +14,8 @@
     "price": 699.0,
     "category": "Modern",
     "type": "Home",
-    "brand": "Sony"
+    "brand": "Sony",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/PlayStation_5_and_DualSense_with_transparent_background.png?width=900"
   },
   {
     "id": "xbox-series-x",
@@ -21,7 +23,8 @@
     "price": 499.99,
     "category": "Modern",
     "type": "Home",
-    "brand": "Microsoft"
+    "brand": "Microsoft",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Xbox_series_X_(50648118708).jpg?width=900"
   },
   {
     "id": "xbox-series-s",
@@ -29,7 +32,8 @@
     "price": 299.99,
     "category": "Modern",
     "type": "Home",
-    "brand": "Microsoft"
+    "brand": "Microsoft",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Xbox_Series_S_with_controller_and_box.jpg?width=900"
   },
   {
     "id": "nintendo-switch-oled",
@@ -37,7 +41,8 @@
     "price": 349.99,
     "category": "Modern",
     "type": "Hybrid",
-    "brand": "Nintendo"
+    "brand": "Nintendo",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo_Switch_OLED.png?width=900"
   },
   {
     "id": "nintendo-switch",
@@ -45,7 +50,8 @@
     "price": 299.99,
     "category": "Modern",
     "type": "Hybrid",
-    "brand": "Nintendo"
+    "brand": "Nintendo",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo-Switch-Console-Docked-wJoyConRB.jpg?width=900"
   },
   {
     "id": "nintendo-switch-lite",
@@ -53,7 +59,8 @@
     "price": 199.99,
     "category": "Modern",
     "type": "Handheld",
-    "brand": "Nintendo"
+    "brand": "Nintendo",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo_Switch_Lite_Grey_-_01.jpg?width=900"
   },
   {
     "id": "nintendo-switch-2",
@@ -61,7 +68,8 @@
     "price": 399.99,
     "category": "Modern",
     "type": "Hybrid",
-    "brand": "Nintendo"
+    "brand": "Nintendo",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo_Switch_2_in_mode_%22handheld%22.png?width=900"
   },
   {
     "id": "steam-deck",
@@ -69,7 +77,8 @@
     "price": 399.0,
     "category": "Modern",
     "type": "Handheld",
-    "brand": "Valve"
+    "brand": "Valve",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Steam_Deck_(front).png?width=900"
   },
   {
     "id": "playstation-portal",
@@ -77,7 +86,8 @@
     "price": 199.99,
     "category": "Modern",
     "type": "Handheld",
-    "brand": "Sony"
+    "brand": "Sony",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/PlayStation_Portal_in_box.jpg?width=900"
   },
   {
     "id": "meta-quest-3",
@@ -85,7 +95,8 @@
     "price": 499.99,
     "category": "Modern",
     "type": "Handheld",
-    "brand": "Meta"
+    "brand": "Meta",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Meta_Quest_3_side_View.jpg?width=900"
   },
   {
     "id": "meta-quest-3s",
@@ -93,7 +104,8 @@
     "price": 299.99,
     "category": "Modern",
     "type": "Handheld",
-    "brand": "Meta"
+    "brand": "Meta",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Meta_Quest_3S_Display_Unit.jpg?width=900"
   },
   {
     "id": "psvr2",
@@ -101,7 +113,8 @@
     "price": 549.99,
     "category": "Modern",
     "type": "Home",
-    "brand": "Sony"
+    "brand": "Sony",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/PSVR2.png?width=900"
   },
   {
     "id": "ps4",
@@ -109,7 +122,8 @@
     "price": 249.0,
     "category": "Modern",
     "type": "Home",
-    "brand": "Sony"
+    "brand": "Sony",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/PS4-Console-wDS4.png?width=900"
   },
   {
     "id": "ps4-pro",
@@ -117,7 +131,8 @@
     "price": 299.0,
     "category": "Modern",
     "type": "Home",
-    "brand": "Sony"
+    "brand": "Sony",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sony-PlayStation4-Pro-Console-FL.png?width=900"
   },
   {
     "id": "xbox-one-s",
@@ -125,7 +140,8 @@
     "price": 199.0,
     "category": "Modern",
     "type": "Home",
-    "brand": "Microsoft"
+    "brand": "Microsoft",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft-Xbox-One-S-Console-FL.png?width=900"
   },
   {
     "id": "xbox-one-x",
@@ -133,7 +149,8 @@
     "price": 249.0,
     "category": "Modern",
     "type": "Home",
-    "brand": "Microsoft"
+    "brand": "Microsoft",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Microsoft-Xbox-One-X-Console.png?width=900"
   },
   {
     "id": "rog-ally",
@@ -141,7 +158,8 @@
     "price": 599.0,
     "category": "Modern",
     "type": "Handheld",
-    "brand": "ASUS"
+    "brand": "ASUS",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ROG_ALLY_-_2.jpg?width=900"
   },
   {
     "id": "nes",
@@ -149,7 +167,8 @@
     "price": 149.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Nintendo"
+    "brand": "Nintendo",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/NES-Console-Set.png?width=900"
   },
   {
     "id": "magnavox-odyssey",
@@ -157,7 +176,8 @@
     "price": 299.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Magnavox"
+    "brand": "Magnavox",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Magnavox-Odyssey-Console-Set.png?width=900"
   },
   {
     "id": "atari-2600",
@@ -165,7 +185,8 @@
     "price": 129.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Atari"
+    "brand": "Atari",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Atari-2600-Light-Sixer-FL.jpg?width=900"
   },
   {
     "id": "mattel-intellivision",
@@ -173,7 +194,8 @@
     "price": 139.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Mattel"
+    "brand": "Mattel",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Mattel-Intellivision-Console-FL.jpg?width=900"
   },
   {
     "id": "colecovision",
@@ -181,7 +203,8 @@
     "price": 159.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Coleco"
+    "brand": "Coleco",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/ColecoVision-wController-L.jpg?width=900"
   },
   {
     "id": "sega-master-system",
@@ -189,7 +212,8 @@
     "price": 139.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Sega"
+    "brand": "Sega",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sega-Master-System-Set.jpg?width=900"
   },
   {
     "id": "turbografx-16",
@@ -197,7 +221,8 @@
     "price": 219.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "NEC"
+    "brand": "NEC",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/NEC-TurboGrafx-16-Console-FR.jpg?width=900"
   },
   {
     "id": "sega-genesis",
@@ -205,7 +230,8 @@
     "price": 129.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Sega"
+    "brand": "Sega",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sega-Genesis-NA-Mk2-Console-Set.png?width=900"
   },
   {
     "id": "super-nintendo",
@@ -213,7 +239,8 @@
     "price": 159.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Nintendo"
+    "brand": "Nintendo",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo-Super-NES-Console-FL.jpg?width=900"
   },
   {
     "id": "neo-geo-aes",
@@ -221,7 +248,8 @@
     "price": 899.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "SNK"
+    "brand": "SNK",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Neo-Geo-AES-Console-Set.png?width=900"
   },
   {
     "id": "3do",
@@ -229,7 +257,8 @@
     "price": 399.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "3DO"
+    "brand": "3DO",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/3DO-FZ-1-Console-FL.jpg?width=900"
   },
   {
     "id": "atari-jaguar",
@@ -237,7 +266,8 @@
     "price": 229.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Atari"
+    "brand": "Atari",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Atari-Jaguar-Console-Set.jpg?width=900"
   },
   {
     "id": "sega-saturn",
@@ -245,7 +275,8 @@
     "price": 249.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Sega"
+    "brand": "Sega",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sega-Saturn-Console-Set-Mk1.jpg?width=900"
   },
   {
     "id": "ps1",
@@ -253,7 +284,8 @@
     "price": 119.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Sony"
+    "brand": "Sony",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/PlayStation1.JPG?width=900"
   },
   {
     "id": "nintendo-64",
@@ -261,7 +293,8 @@
     "price": 169.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Nintendo"
+    "brand": "Nintendo",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo-64-Console-FL.png?width=900"
   },
   {
     "id": "sega-dreamcast",
@@ -269,7 +302,8 @@
     "price": 199.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Sega"
+    "brand": "Sega",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sega-Dreamcast-Console-BL.jpg?width=900"
   },
   {
     "id": "playstation-2",
@@ -277,7 +311,8 @@
     "price": 149.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Sony"
+    "brand": "Sony",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Sony-PlayStation-2-70001-Console-BL.jpg?width=900"
   },
   {
     "id": "nintendo-gamecube",
@@ -285,7 +320,8 @@
     "price": 149.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Nintendo"
+    "brand": "Nintendo",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Gamecube-console.jpg?width=900"
   },
   {
     "id": "original-xbox",
@@ -293,7 +329,8 @@
     "price": 159.0,
     "category": "Retro",
     "type": "Home",
-    "brand": "Microsoft"
+    "brand": "Microsoft",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Xbox-console.jpg?width=900"
   },
   {
     "id": "gameboy-color",
@@ -301,7 +338,8 @@
     "price": 129.0,
     "category": "Retro",
     "type": "Handheld",
-    "brand": "Nintendo"
+    "brand": "Nintendo",
+    "imageUrl": "https://commons.wikimedia.org/wiki/Special:FilePath/Nintendo_Game_Boy_Color.png?width=900"
   }
 ]
 

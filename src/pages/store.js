@@ -1,5 +1,4 @@
 import * as React from "react"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import ProductCard from "../components/ProductCard"
@@ -193,15 +192,7 @@ export default function StorePage() {
               price={p.price}
               description={`${p.category} ${p.type} console by ${p.brand}.`}
               href={`/store/${p.id}`}
-              imageNode={
-                <StaticImage
-                  src="../images/example.png"
-                  alt={p.name}
-                  className="h-full w-full"
-                  placeholder="blurred"
-                  formats={["auto", "webp", "avif"]}
-                />
-              }
+              imageUrl={p.imageUrl}
             />
           ))}
         </div>

@@ -27,6 +27,23 @@ export default function ProductCard({
     addItem(id, 1)
   }
 
+  const resolvedAlt = name || "Product image"
+  const resolvedImage =
+    imageNode ||
+    (typeof imageUrl === "string" && imageUrl.trim().length > 0 ? (
+      <img
+        src={imageUrl}
+        alt={resolvedAlt}
+        className="h-full w-full object-contain p-4"
+        loading="lazy"
+        decoding="async"
+      />
+    ) : (
+      <div className="flex h-full w-full items-center justify-center text-xs text-white/40">
+        No image
+      </div>
+    ))
+
   return (
     <div className="group qp-glass relative overflow-hidden rounded-2xl p-4 transition hover:border-primary-red/30 hover:shadow-red-glow">
       <div className="absolute inset-0 opacity-0 transition group-hover:opacity-100">
@@ -36,7 +53,7 @@ export default function ProductCard({
       <div className="relative">
         <Link to={href} className="block">
           <div className="aspect-[4/3] w-full overflow-hidden rounded-xl border border-white/10 bg-white/5">
-            <div className="h-full w-full">{imageNode}</div>
+            <div className="h-full w-full">{resolvedImage}</div>
           </div>
 
           <div className="mt-4 flex items-start justify-between gap-3">

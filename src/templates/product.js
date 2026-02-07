@@ -1,6 +1,5 @@
 import * as React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Seo from "../components/seo"
@@ -68,19 +67,38 @@ export default function ProductTemplate({ pageContext }) {
         <section className="grid gap-6 lg:grid-cols-2">
           <div className="qp-glass overflow-hidden rounded-3xl p-4">
             <div className="aspect-[4/3] overflow-hidden rounded-2xl border border-white/10 bg-white/5">
-              <StaticImage
-                src="../images/example.png"
-                alt={product.name}
-                className="h-full w-full"
-                placeholder="blurred"
-                formats={["auto", "webp", "avif"]}
-              />
+              {product.imageUrl ? (
+                <img
+                  src={product.imageUrl}
+                  alt={product.name}
+                  className="h-full w-full object-contain p-6"
+                  loading="lazy"
+                  decoding="async"
+                />
+              ) : (
+                <div className="flex h-full w-full items-center justify-center text-sm text-white/40">
+                  No image
+                </div>
+              )}
             </div>
 
             <div className="mt-4 grid grid-cols-3 gap-3">
-              <div className="aspect-[4/3] rounded-2xl border border-white/10 bg-white/5" />
-              <div className="aspect-[4/3] rounded-2xl border border-white/10 bg-white/5" />
-              <div className="aspect-[4/3] rounded-2xl border border-white/10 bg-white/5" />
+              {[0, 1, 2].map(i => (
+                <div
+                  key={i}
+                  className="aspect-[4/3] overflow-hidden rounded-2xl border border-white/10 bg-white/5"
+                >
+                  {product.imageUrl ? (
+                    <img
+                      src={product.imageUrl}
+                      alt={`${product.name} thumbnail ${i + 1}`}
+                      className="h-full w-full object-contain p-3 opacity-80"
+                      loading="lazy"
+                      decoding="async"
+                    />
+                  ) : null}
+                </div>
+              ))}
             </div>
           </div>
 
